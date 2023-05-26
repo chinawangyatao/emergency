@@ -2,9 +2,9 @@ import { showFailToast } from 'vant';
 import axios from 'axios'; // 引入axios
 const service = axios.create({
   // 走代理报错
-  // baseURL: 'http://140.249.206.14:8182/', // 正式
+  baseURL: 'http://140.249.206.14:8182/', // 正式
   //  baseURL: 'http://124.129.136.5:18182/', // 测试
-  baseURL: 'http://192.168.3.73:8182/',
+  // baseURL: 'http://192.168.3.73:8182/',
   // 配置项
   timeout: 30000,
   // withCredentials: true,

@@ -33,8 +33,8 @@ const isLoading = ref(false)
 const getDepartments = async () => {
   isLoading.value = true
   const obj = {
-    // userid: userId.value,
-    userid: 897,
+    userid: userId.value,
+    // userid: 897,
     type: value1.value,
     orgId: value2.value,
   }
